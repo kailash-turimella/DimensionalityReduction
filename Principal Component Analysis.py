@@ -3,8 +3,8 @@ Principal Component Ananlysis
 
 Unsupervised Learning - The dependant variable are not considered
 
-Reducing the number of dependant variables
-  using only the variable which have a high influence on the independant variables
+Reducing the number of independant variables
+  using only the variables which have a high influence on the dependant variables
   
 PCA is only used for linear problems
 """
