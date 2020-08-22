@@ -13,7 +13,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
 # Importing datasets
 dataset = pd.read_csv('Wine.csv')
 X = dataset.iloc[:,0:13].values
@@ -31,9 +30,6 @@ X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 
 # Applying PCA
-"""
-when n_components = None, you can see how much % of variance is explained by each component
-"""
 from sklearn.decomposition import PCA
 pca = PCA(n_components = 2)          # Number of dimensions to which it needs to be reduced
 X_train = pca.fit_transform(X_train)
