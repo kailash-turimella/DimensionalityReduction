@@ -3,8 +3,8 @@ Linear Discriminant Analysis
 
 Supervised Learning - The dependant variables are also considered
 
-Reducing the number of dependant variables
-  using only the variable which have a high influence on the independant variables
+Reducing the number of independant variables
+  using only the variable which have a high influence on the dependant variables
   
 LDA is only used for linear problems
 """
