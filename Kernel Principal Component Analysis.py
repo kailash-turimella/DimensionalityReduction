@@ -1,8 +1,8 @@
 """
-Kernal PCA
+Kernel PCA
 
-Kernal PCA is used for non-linear problems.
-Kernal PCA uses the kernal trick to map the data to a higher dimension 
+Kernel PCA is used for non-linear problems.
+Kernel PCA uses the kernel trick to map the data to a higher dimension 
    and then extracts the principle components
 """
 # Importing libraries
