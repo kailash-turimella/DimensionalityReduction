@@ -35,7 +35,7 @@ pca = PCA(n_components = 2)          # Number of dimensions to which it needs to
 X_train = pca.fit_transform(X_train)
 X_test = pca.transform(X_test)
 explained_varience = pca.explained_variance_ratio_  
-#the percentage of variance explained by each of the principle components
+#the percentage of variance explained by each of the principal components
 
 # Fitting logistic regression to training set
 from sklearn.linear_model import LogisticRegression
