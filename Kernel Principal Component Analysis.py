@@ -3,7 +3,7 @@ Kernel PCA
 
 Kernel PCA is used for non-linear problems.
 Kernel PCA uses the kernel trick to map the data to a higher dimension 
-   and then extracts the principle components
+   and then extracts the principal components
 """
 # Importing libraries
 import numpy as np
